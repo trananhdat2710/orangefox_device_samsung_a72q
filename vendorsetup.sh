@@ -55,9 +55,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER="1"
         export FOX_USE_XZ_UTILS="1"
         export FOX_VARIANT="A14"
-        export OF_MAINTAINER="Risen"
+        export OF_MAINTAINER="AnhDat"
         export FOX_BUILD_TYPE="Stable"
-        export FOX_VERSION="R11.1_4"
+        export FOX_VERSION="R11.1"
         export OF_FL_PATH1="/tmp/flashlight" # See /init.recovery.qcom.rc for more information
         export FOX_DELETE_MAGISK_ADDON="1"
         export OF_USE_GREEN_LED="0"
